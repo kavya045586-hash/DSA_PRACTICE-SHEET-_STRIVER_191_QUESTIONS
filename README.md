@@ -1,5 +1,7 @@
 # Striver DSA Sheet – 191 Questions 🚀
 
+![50 Days Badge](LEETCODE_BADGE/BATCH_LEETCODE.PNG.png)
+
 This repository contains my daily practice solutions for the **Striver DSA Sheet (191 Questions)**.  
 The goal is to strengthen Data Structures and Algorithms (DSA) concepts and prepare for coding interviews and campus placements.
 
@@ -33,12 +35,4 @@ It is widely recommended for interview preparation and competitive programming.
 
 Example:
 
----
-
-## 📅 Daily Practice
-- I am solving **1–2 questions daily**.
-- Each solution is pushed to GitHub after testing in **Visual Studio Code**.
-- Progress is tracked by commits and folder organization.
-
----
 
