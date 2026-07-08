@@ -1,9 +1,13 @@
-# Striver DSA Sheet – 191 Questions 🚀
+# Striver DSA Sheet – 191 Questions 🚀# Striver DSA Sheet – 191 Questions 🚀
 
-![50 Days Badge](LEETCODE_BADGE/BATCH_LEETCODE.PNG.png)
+<p align="center">
+  <img src="LEETCODE_BADGE/BATCH_LEETCODE.PNG.png" alt="50 Days Badge" width="300"/>
+</p>
 
 This repository contains my daily practice solutions for the **Striver DSA Sheet (191 Questions)**.  
 The goal is to strengthen Data Structures and Algorithms (DSA) concepts and prepare for coding interviews and campus placements.
+
+
 
 ---
 
@@ -33,6 +37,6 @@ It is widely recommended for interview preparation and competitive programming.
   - Solution code
   - Example input/output
 
-Example:
+
 
 
