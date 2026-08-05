@@ -1,0 +1,23 @@
+/*
+Problem:
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+Examples:
+Input: s = "listen", t = "silent"
+Output: true
+
+Input: s = "rat", t = "car"
+Output: false
+*/
+
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        if (s.size() != t.size()) return false; // lengths must match
+
+        sort(s.begin(), s.end());
+        sort(t.begin(), t.end());
+
+        return s == t;
+    }
+};
