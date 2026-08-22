@@ -1,0 +1,33 @@
+/*
+Problem: Best Time to Buy and Sell Stock II (LeetCode #122)
+-----------------------------------------------------------
+You may complete as many transactions as you like (buy one and sell one share multiple times).
+But you must sell before you buy again.
+
+Approach:
+- Iterate through prices.
+- If today's price > yesterday's price, add the difference to total profit.
+*/
+
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int sum = 0;
+        for (int i = 1; i < prices.size(); i++) {
+            if (prices[i] > prices[i - 1]) {
+                sum += prices[i] - prices[i - 1];
+            }
+        }
+        return sum;
+    }
+};
+
+int main() {
+    vector<int> prices = {7,1,5,3,6,4};
+    Solution sol;
+    cout << "Total Profit = " << sol.maxProfit(prices) << endl;
+    return 0;
+}
