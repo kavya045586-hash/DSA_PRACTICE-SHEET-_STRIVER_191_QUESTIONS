@@ -18,7 +18,9 @@ public:
         return path(0, 0, m, n, dp);
     }
 
-    int path(int i, int j, int m, int n, vector<vector<int>>& dp) {
+    int path(int i, int j, int m, int n, vector<vector<int>>& dp)
+//&it is very important which tells the same dp is shared  by all recursive calls.
+{
         if (i == m-1 && j == n-1) return 1;   // reached destination
         if (i >= m || j >= n) return 0;       // out of bounds
 
